@@ -1,0 +1,28 @@
+<config>
+    <TC1>
+        <name>Test convert USD->RUR</name>
+        <amount>100</amount>
+        <currency_in>USD</currency_in>
+        <currency_out>RUR</currency_out>
+    </TC1>
+    <TC2>
+        <name>Test convert RUR->USD</name>
+        <amount>100</amount>
+        <currency_in>RUR</currency_in>
+        <currency_out>USD</currency_out>
+    </TC2>
+    <TC3>
+        <name>Test convert USD->RUR (cash)</name>
+        <amount>100</amount>
+        <currency_in>RUR</currency_in>
+        <currency_out>USD</currency_out>
+        <receive_method>cash</receive_method>
+    </TC3>
+    <TC4>
+        <name>Test convert RUR->USD (cash)</name>
+        <amount>100</amount>
+        <currency_in>RUR</currency_in>
+        <currency_out>USD</currency_out>
+        <receive_method>cash</receive_method>
+    </TC4>
+</config>
