@@ -1,0 +1,4 @@
+pytest
+selenium
+xmltodict
+pytest-allure-adaptor
